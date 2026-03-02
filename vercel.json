@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd auth-app/frontend && npm run build",
+  "framework": "react",
+  "outputDirectory": "auth-app/frontend/build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
