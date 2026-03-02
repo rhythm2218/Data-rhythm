@@ -1,6 +1,7 @@
 {
-  "buildCommand": "cd auth-app/frontend && npm run build",
-  "outputDirectory": "auth-app/frontend/build",
+  "root": "auth-app/frontend",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
   "rewrites": [
     {
       "source": "/(.*)",
